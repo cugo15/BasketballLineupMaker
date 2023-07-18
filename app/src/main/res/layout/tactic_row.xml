@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/full_tactic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvfpic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tk">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar8"
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                android:background="@color/tc"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/godelete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/whitetrash"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+                app:layout_constraintStart_toStartOf="@+id/toolbar8"
+                app:layout_constraintTop_toTopOf="@+id/toolbar8" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar8"
+                tools:srcCompat="@drawable/tacticcourt" />
+
+            <TextView
+                android:id="@+id/teccnotes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="textMultiLine"
+                android:text="1. Pg go base line"
+                android:textAlignment="center"
+                android:textColor="@color/tc"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/c2"
+                app:layout_constraintEnd_toEndOf="@+id/c2"
+                app:layout_constraintStart_toStartOf="@+id/c2"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/tacnname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:inputType="textLongMessage|textMultiLine|textImeMultiLine"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/tk"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+                app:layout_constraintEnd_toStartOf="@+id/shareit"
+                app:layout_constraintStart_toEndOf="@+id/empty"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/whiteheart"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+                app:layout_constraintEnd_toEndOf="@+id/toolbar8"
+                app:layout_constraintTop_toTopOf="@+id/toolbar8" />
+
+            <Button
+                android:id="@+id/shareit"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="20dp"
+                android:background="?attr/actionModeShareDrawable"
+                android:backgroundTint="@color/tk"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+                app:layout_constraintEnd_toStartOf="@+id/like"
+                app:layout_constraintTop_toTopOf="@+id/toolbar8" />
+
+            <Button
+                android:id="@+id/empty"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:background="?attr/actionModeShareDrawable"
+                android:backgroundTint="@color/tk"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+                app:layout_constraintStart_toEndOf="@+id/godelete"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

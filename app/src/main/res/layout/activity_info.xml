@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Info">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tbshape"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Use ?"
+        android:textColor="@color/tc"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar6"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/howtouse"
+        android:layout_width="369dp"
+        android:layout_height="632dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:text="1) Create Player : \n\nTo create a player, the required features must be filled in completely and the save button must be pressed. The player's photo will be taken from the gallery. For this you must allow access to the gallery.\n\n
+2) Players : \n\nOn this page you can view the players you have registered. If you click on these players, a new page will open to update or delete the player you clicked on.\n\n
+3) Tactic board :\n\nThere are many features on this page that you can use to create tactics. We have 5 jerseys and a ball on the drawing board.
+You can place them anywhere on the board by long clicking on the jerseys and the ball. When you short click on the jerseys, a window opens below and you can choose players from this window. Once the player selection is complete, you can see the selected players below and you can see the jersey numbers on the court. You can use different colors by choosing the color you want and you can draw your tactics.
+This way you can create great sets and find wide open threes and easy layups also you can save that tactics with tactic name and your special notes.\n\n
+4) Tactic List :\n\nYou can view all the tactics you saved on this page. You can use the share button to share your tactics with your players. You can also add your tactics to your favorites by pressing the heart button.\n\n
+5) Create Note :\n\nOn this page, you can take instant match notes with the photos taken with the camera. If you want, you can take notes without taking a photo.\n\n
+6) Note List :\n\nYou can view all the notes you saved on this page. You can use the share button to share your notes with your players. You can also add your notes to your favorites by pressing the heart button.
+
+"
+        android:textAlignment="textStart"
+        android:textColor="@color/tc"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

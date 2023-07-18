@@ -1,0 +1,69 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/drawable/oval.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/drawable/teamname.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/activity_baketball_players.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/activity_basketball_players.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/activity_create_player.xml" value="0.264" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/activity_lineup.xml" value="0.2014218009478673" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/choose_players.xml" value="0.4" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/pp_row.xml" value="0.4" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/layout/recycler_row.xml" value="0.536" />
+        <entry key="..\:/Users/cugo/AndroidStudioProjects/BasketballLineupMaker/app/src/main/res/menu/player_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable-v24/ic_color.xml" value="0.1" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable-v24/ic_eraser.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable-v24/ic_save.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable/color_shape.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable/orangechoose.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable/oval.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable/tbshape.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/drawable/teamname.xml" value="0.2703125" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_basketball_players.xml" value="0.152" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_create_notes.xml" value="0.176" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_create_player.xml" value="0.152" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_info.xml" value="0.152" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_lineup.xml" value="0.152" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_note_list.xml" value="0.152" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_tactic_list.xml" value="0.152" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/activity_tacticlist.xml" value="0.176" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/choose_players.xml" value="0.264" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/content_baketball_players.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/content_note_list.xml" value="0.1" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/fragment_first.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/fragment_first2.xml" value="0.1" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/fragment_second.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/fragment_second2.xml" value="0.1" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/note_row.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/pp_row.xml" value="0.4" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/recycler_row.xml" value="0.2" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/savetactics.xml" value="0.2" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/tactic_row.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/cugo/Desktop/BasketballLineupMaker/app/src/main/res/layout/view_display.xml" value="0.1598731884057971" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/activity_basketball_players.xml" value="0.264" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/activity_create_player.xml" value="0.13797814207650272" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/activity_lineup.xml" value="0.2" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/activity_main.xml" value="0.10400000000000001" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/activity_note_list.xml" value="0.13797814207650272" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/activity_tactic_list.xml" value="0.13797814207650272" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/choose_players.xml" value="0.72" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/content_note_list.xml" value="0.13797814207650272" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/note_row.xml" value="0.13797814207650272" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/recycler_row.xml" value="0.264" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/savetactics.xml" value="0.4" />
+        <entry key="..\:/cugonewallll/BasketballLineupMaker/app/src/main/res/layout/tactic_row.xml" value="0.176" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
